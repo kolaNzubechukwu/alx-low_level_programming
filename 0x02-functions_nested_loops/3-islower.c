@@ -14,7 +14,7 @@ int _islower(int c)
 		{
 			prog = 1;
 		}
-		else
+		if ((i - 32) == c)
 		{
 			prog = 0;
 		}
