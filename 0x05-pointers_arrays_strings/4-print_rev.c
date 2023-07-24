@@ -3,16 +3,16 @@
 int _strlen(char *str);
 /**
  * print_rev - prints string in reverse
- * @s string to print
+ * @s: string to print
  */
 void print_rev(char *s)
 {
 	int g = (_strlen(s) - 1);
+	int y;
 
-	while (s[g] != '\n')
+	for (y = g; y != '\0'; y--)
 	{
-		printf("%d", s[g]);
-		g--;
+		printf("%c", s[g]);
 	}
 }
 /**
