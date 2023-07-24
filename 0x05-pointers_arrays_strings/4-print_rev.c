@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	for (y = g; s[y] != '\0'; y--)
 	{
-		printf("%c", s[g]);
+		printf("%c", s[y]);
 	}
 }
 /**
