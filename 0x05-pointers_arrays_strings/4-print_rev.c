@@ -14,6 +14,7 @@ void print_rev(char *s)
 	{
 		printf("%c", s[y]);
 	}
+	putchar('\n');
 }
 /**
  * _strlen - finds the string length of str
