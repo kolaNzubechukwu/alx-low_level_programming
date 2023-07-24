@@ -12,6 +12,7 @@ void print_rev(char *s)
 	while (s[g] != '\n')
 	{
 		printf("%d", s[g]);
+		g--
 	}
 }
 /**
@@ -23,7 +24,7 @@ int _strlen(char *str)
 {
 	int i = 0;
 
-	while (str[i] != '\n')
+	while (str[i] != '\0')
 		i++;
 	return (i);
 }
